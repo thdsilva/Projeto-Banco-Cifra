@@ -1,8 +1,12 @@
 * body {
      margin:0;
      padding:0;
-     /*background-color:#f7f7f7;*/
-     background-image: url("paper.gif");
+     /*background-color:#f7f7f7;
+     background-color: rgba(71, 243, 85, 0.801);*/
+     background-image: url("BancoCifraDigital.jpg");
+     background-size: cover;
+     -webkit-background-size: cover; /*Css safari e chrome*/
+     background: auto;
      font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
      font-size:medium;
      color:#000;
@@ -11,7 +15,7 @@
 }
  
 h1 {
-     color:#039;
+     color:rgb(0, 0, 0);
      font-size:120%;
 }
  
@@ -38,13 +42,13 @@ p {
  
 #conteudo form legend {
      padding:5px;
-     border:1px solid #036;
+     border:1px solid rgb(0, 102, 17);
      border-radius:5px;
      background-color:#e2e2e2;
 }
  
 #conteudo fieldset {
-     border:1px dotted #036;
+     border:1px dotted rgb(0, 102, 5);
 }
  
 #conteudo form label {
@@ -56,7 +60,7 @@ p {
  
 #conteudo form input[type="email"],#conteudo form input[type="text"], #conteudo form input[type="password"] {
      float:left;
-     background-color:#3b5998;
+     background-color:#2d752d;
      text-indent:10px;
      width:150px;
      height:25px;
